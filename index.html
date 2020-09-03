@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="game, colors, project, HTML, CSS, JAVASCRIPT">
+    <meta name="description"
+        content="Gra w kolory to projekt przedstawiający Moje umiejętności w takich technologiach jak HTML, CSS oraz JavaScript ">
+    <meta name="author" content="Eryk Winnicki">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra w kolory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Londrina+Solid&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/extraSmall.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Gra w kolory</h1>
+            <img src="images/Logo.png" alt="Logo w kształcie 4 kwadratów o różnych kolorach">
+        </header>
+        <section class="info">
+            <h2>Gra w kolory...</h2>
+            <p>to strona polegająca na symulacji pewnego rodzaju gry hazardowej Mojego własnego wymysłu: "Gra w
+                kolory". Polega ona na wyborze jednego z 4 kolorów: czerwonego, czarnego, zielonego i niebieskiego, a
+                następnie ustaleniu za jaką sumę chcesz zagrać (waluta w grze to JSD czyli JavaScript dollars). Po tych
+                dwóch czynnościach strona losuje wygrywający
+                kolor, a Ty jeśli miałeś szczęście i system wylosował wybrany przez Ciebie kolor wygrywasz
+                postawioną kwotę pomnożoną razy 2! <span>Zaczynajmy!</span></p>
+        </section>
+        <section class="game">
+            <div class="your-money">
+                <h3>Twoje pieniądze: <span>0</span> JSD</h3>
+                <button>Doładuj 25 JSD</button>
+            </div>
+            <div class="main-game">
+                <input type="number" min="5" max="1000" class="amount" placeholder="Wpisz kwotę">
+                <select class="colors">
+                    <option>Wybierz kolor</option>
+                    <option value="czerwony">Czerwony</option>
+                    <option value="czarny">Czarny</option>
+                    <option value="zielony">Zielony</option>
+                    <option value="niebieski">Niebieski</option>
+                </select>
+            </div>
+            <div class="all-colours">
+                <div class="game-color" data-color="red" value="czerwony"></div>
+                <div class="game-color" data-color="black" value="czarny"></div>
+                <div class="game-color" data-color="green" value="zielony"></div>
+                <div class="game-color" data-color="blue" value="niebieski"></div>
+            </div>
+            <div class="start-game">
+                <button class="submit-button">Zagraj</button>
+                <h4>Wygrywający kolor to: <span>---</span></h4>
+            </div>
+        </section>
+        <section class="results">
+            <h3>Ostatnia gra:</h3>
+            <ul>
+                <li>---</li>
+            </ul>
+            <h3>Ostatnie 10 gier:</h3>
+            <h4 class="all-games">Wszystkie gry: <span></span></h4>
+            <h4 class="wins">Wygrane: <span></span></h4>
+            <h4 class="losses">Przegrane: <span></span></h4>
+        </section>
+        <footer>
+            <p>Gra w kolory &copy; by Eryk Winnicki</p>
+        </footer>
+    </div>
+    <script src="javascript/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+/* font-family: 'Catamaran', sans-serif;
+font-family: 'Londrina Solid', cursive; */
+
+
+
+/* SMALL DEVICES  */
+
+
+/* HEADER  */
+
+@media(min-width:768px) {
+    header h1 {
+        font-size: 5rem;
+    }
+
+    header img {
+        height: 2.8vh;
+        margin-left: 3%;
+        border: 3px solid #eee;
+    }
+}
+
+
+/* SECTION INFO  */
+
+@media(min-width:768px) {
+    .info h2 {
+        font-size: 3.5rem;
+    }
+
+    .info p {
+        font-size: 2.1rem;
+    }
+
+    .info p span {
+        font-size: 2.6rem;
+    }
+}
+
+
+/* SECTION GAME  */
+
+@media(min-width:768px) {
+    .game {
+        box-shadow: 0 0 3px 1px gray;
+    }
+
+    .game .your-money {
+        padding: 2% 10%;
+    }
+
+    .game .your-money h3 {
+        font-size: 2.3rem;
+    }
+
+    .game .your-money button {
+        font-size: 1.8rem;
+    }
+
+    .game .main-game input,
+    .game .main-game select {
+        font-size: 1.9rem;
+    }
+
+    .all-colours {
+        padding: 0 15%;
+    }
+
+    .all-colours div {
+        width: 150px;
+        height: 150px;
+        margin: 10px 10px;
+        border: 3px solid gray;
+    }
+
+    .game .start-game button {
+        padding: 0 5%;
+        font-size: 2.3rem;
+    }
+
+    .game .start-game h4 {
+        font-size: 2.3rem;
+    }
+
+    .game .start-game h4 span {
+        font-size: 2.6rem;
+    }
+}
+
+
+/* SECTION RESULTS  */
+
+@media(min-width:768px) {
+    .results {
+        box-shadow: 0 0 3px 1px gray;
+    }
+
+    .results h3 {
+        font-size: 2.3rem;
+    }
+
+    .results ul li {
+        font-size: 2.2rem;
+    }
+
+    .results h4 {
+        margin: 2% 0;
+        text-align: center;
+        font-size: 1.9rem;
+    }
+}
+
+
+/* FOOTER  */
+@media(min-width:768px) {
+    footer p {
+        font-size: 2rem;
+    }
+}

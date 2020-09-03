@@ -1,0 +1,95 @@
+/* font-family: 'Catamaran', sans-serif;
+font-family: 'Londrina Solid', cursive; */
+
+
+
+/* MEDIUM DEVICES  */
+
+/* HEADER  */
+
+@media(min-width:1024px) {
+    header h1 {
+        font-size: 6.9rem;
+    }
+}
+
+
+/* SECTION INFO  */
+
+@media(min-width:1024px) {
+    .info h2 {
+        font-size: 4rem;
+    }
+
+    .info p {
+        font-size: 2.4rem;
+    }
+
+    .info p span {
+        font-size: 3rem;
+    }
+}
+
+
+/* SECTION GAME  */
+
+@media(min-width: 1024px) {
+
+    .game .your-money h3 {
+        margin-bottom: 10%;
+        font-size: 2.5rem;
+    }
+
+    .game .your-money button {
+        font-size: 2rem;
+    }
+
+    .game .main-game input,
+    .game .main-game select {
+        margin-bottom: 15%;
+        font-size: 2.2rem;
+    }
+
+    .all-colours div {
+        width: 200px;
+        height: 200px;
+    }
+
+    .game .start-game button {
+        font-size: 2.5rem;
+    }
+
+    .game .start-game h4 {
+        font-size: 2.5rem;
+    }
+
+    .game .start-game h4 span {
+        font-size: 2.8rem;
+    }
+}
+
+
+/* SECTION RESULTS  */
+
+@media(min-width:1024px) {
+    .results h3 {
+        font-size: 2.6rem;
+    }
+
+    .results ul li {
+        font-size: 2.5rem;
+    }
+
+    .results h4 {
+        font-size: 2rem;
+    }
+}
+
+
+/* FOOTER  */
+
+@media(min-width:1024px) {
+    footer p {
+        font-size: 2.2rem;
+    }
+}
